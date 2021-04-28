@@ -15,7 +15,7 @@
     "start:prod": "http-server ./dist -p 4200",
     "build-and-start:prod": "run-s build:prod start:prod",
     "build-and-deploy:prod": "run-s build:prod start:prod",
-    "e2e": "start-server-and-test build-and-deploy:prod http://localhost:4200 test cypress:run"
+    "e2e": "start-server-and-test build-and-deploy:prod http://localhost:4200 cypress:run"
   },
   "private": true,
   "dependencies": {
