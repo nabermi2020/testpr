@@ -17,4 +17,5 @@ cache:
 install:
   - npm ci
 script:
+  - ng test
   - npm run e2e
